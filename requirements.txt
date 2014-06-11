@@ -33,5 +33,6 @@ scipy==0.14.0
 six==1.6.1
 tornado==3.2
 ujson==1.33
+vincent==0.4.4
 websocket==0.2.1
 wsgiref==0.1.2
