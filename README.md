@@ -6,7 +6,7 @@ Some fun experiments with new visualization libraries in (I)Python.
 
 ### 01-mrinteract.ipynb
 
-A comparison of IPython's interact & Jake van der Plas' [eipywidgets](https://github.com/jakevdp/ipywidgets)
+A comparison of IPython's interact & Jake van der Plas' [ipywidgets](https://github.com/jakevdp/ipywidgets)
 
 ### 02-bokeh.ipynb
 
