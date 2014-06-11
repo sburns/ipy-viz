@@ -22,8 +22,7 @@ Tiny [Flask](http://flask.pocoo.org) app to display my brain using the bokeh plo
 
 ### 05-vincent.ipynb
 
-WIP
-
+Vincent speaks DataFrames naturally, which is nice. This notebook uses Vincent to produce some stacked plots of my processed brain image.
 
 ## Notes
 

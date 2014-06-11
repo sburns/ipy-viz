@@ -37,7 +37,6 @@ def build_plot(slice=None):
 @app.route('/<int:slice>')
 def index(slice):
     plot_tag = build_plot(slice)
-
     return render_template('index.html', plot=plot_tag)
 
 if __name__ == '__main__':

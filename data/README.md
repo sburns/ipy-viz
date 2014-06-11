@@ -3,6 +3,8 @@ Data sources
 
 `brain.nii.gz` is my T1. I was scanned at the Martinos Center at MGH, somehow I acquired it :)
 
-Resting state is from a single subject from the [Human Connectome Project](https://www.humanconnectome.org). Cue the lawyers...
+`bet brain.nii.gz brain_stripped.nii.gz -f .6` to produce the skull-stripped image.
 
-    Data were provided [in part] by the Human Connectome Project, WU-Minn Consortium (Principal Investigators: David Van Essen and Kamil Ugurbil; 1U54MH091657) funded by the 16 NIH Institutes and Centers that support the NIH Blueprint for Neuroscience Research; and by the McDonnell Center for Systems Neuroscience at Washington University.
+fast -n 3 -t 1 brain_stripped.nii.gz` to segment the skull-stripped image.
+
+I happened to find a DTI scan.
