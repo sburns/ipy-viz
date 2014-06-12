@@ -7,15 +7,13 @@ Little experiment in embedding Bokeh plots in a Flask app
 
 Hat tip to https://github.com/rpazyaquian/bokeh-flask-tutorial/wiki/Rendering-Bokeh-plots-in-Flask
 """
-__author__ = 'Scott Burns <scott.s.burns@vanderbilt.edu>'
-__copyright__ = 'Copyright 2014 Vanderbilt University. All Rights Reserved'
+__author__ = 'Scott Burns <scott.s.burns@gmail.com>'
 
 from flask import Flask, render_template
 from bokeh.plotting import image, output_server
 output_server('brain-flask', url='default')
 
 from nibabel import load
-
 data = load('data/brain.nii.gz').get_data()
 
 app = Flask(__name__)
